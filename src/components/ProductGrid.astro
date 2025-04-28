@@ -1,0 +1,102 @@
+---
+import "../styles/global.css";
+import { Image } from "astro:assets";
+import grid1 from "../assets/images/grid1.jpg";
+import grid2 from "../assets/images/grid2.jpg";
+import grid3 from "../assets/images/grid3.jpg";
+import grid4 from "../assets/images/grid4.jpg";
+---
+
+<div
+  class="flex flex-row flex-wrap justify-center items-center text-center sm:py-24 w-full uppercase"
+>
+  <div class="relative px-3 py-12 flex-shrink-0">
+    <Image
+      class="z-0 opacity-90 transition-transform duration-500 hover:scale-110"
+      src={grid1}
+      width="328"
+      height="448"
+      alt="man wearing jacket sitting on couch"
+    />
+    <div
+      class="pt-6 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute"
+    >
+      <p class="pb-8 text-white text-4xl font-extrabold drop-shadow-lg">
+        Outerwear
+      </p>
+      <a
+        href="/search"
+        class="inline-flex items-center justify-center h-12 px-9 py-6 font-semibold rounded-lg text-gray-900 bg-white hover:bg-gray-200"
+      >
+        Shop Now
+      </a>
+    </div>
+  </div>
+  <div class="relative px-3 py-12 flex-shrink-0">
+    {/* Requires custom width */}
+    <Image
+      class="z-0 opacity-80 transition-transform duration-500 hover:scale-110"
+      src={grid2}
+      width="309"
+      height="448"
+      alt="women wearing knitted scarf and hat"
+    />
+    <div
+      class="pt-6 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute"
+    >
+      <p class="pb-8 text-black text-4xl font-extrabold drop-shadow-lg">
+        Knitwear
+      </p>
+      <a
+        href="/search"
+        class="inline-flex items-center justify-center h-12 px-9 py-6 font-semibold rounded-lg text-white bg-gray-900 hover:bg-gray-800"
+      >
+        Shop Now
+      </a>
+    </div>
+  </div>
+  <div class="relative px-3 py-12 flex-shrink-0">
+    <Image
+      class="z-0 opacity-70 transition-transform duration-500 hover:scale-110"
+      src={grid3}
+      width="328"
+      height="448"
+      alt="man wearing polo shirt sitting"
+    />
+    <div
+      class="pt-0 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute"
+    >
+      <p class="pb-5 text-black text-4xl font-extrabold drop-shadow-lg">
+        Business Casual
+      </p>
+      <a
+        href="/search"
+        class="inline-flex items-center justify-center h-12 px-9 py-6 font-semibold rounded-lg text-white bg-gray-900 hover:bg-gray-800"
+      >
+        Shop Now
+      </a>
+    </div>
+  </div>
+  <div class="relative px-3 py-12 flex-shrink-0">
+    <Image
+      class="z-0 opacity-90 transition-transform duration-500 hover:scale-110"
+      src={grid4}
+      width="340"
+      height="448"
+      alt="woman wearing loungewear relaxing"
+    />
+    <div
+      class="pt-6 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute"
+    >
+      <p class="pb-8 text-white text-4xl font-extrabold drop-shadow-lg">
+        Loungewear
+      </p>
+      <a
+        href="/search"
+        class="inline-flex items-center justify-center h-12 px-9 py-6 font-semibold rounded-lg text-gray-900 bg-white hover:bg-gray-200"
+      >
+        Shop Now
+      </a>
+    </div>
+  </div>
+</div>

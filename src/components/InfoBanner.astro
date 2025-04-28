@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import delivery from "../assets/images/delivery.svg";
+import tracking from "../assets/images/tracking.svg";
+import returns from "../assets/images/returns.svg";
+import giftcard from "../assets/images/giftcard.svg";
+import { Image } from "astro:assets";
+---
+
+<div
+  class="dark:bg-slate-800 border-solid border-t-2 border-b-2 border-gray-500 dark:text-gray-200 max-w-full m-auto justify-center items-center sm:py-24"
+>
+  <div
+    class="p-10 sm:p-0 sm:h-60 flex flex-col sm:flex-row items-center text-center font-mono"
+  >
+    <div
+      class="flex flex-col sm:flex-1 h-3/4 p-10 sm:p-0 justify-center items-center sm:border-r-2 border-gray-500"
+    >
+      <Image
+        class="sm:h-28 h-12"
+        width="256"
+        height="128"
+        src={delivery}
+        alt="Delivery Truck"
+      />
+      <h2 class="pt-4">Free Shipping On Orders $50+</h2>
+      <a class="p-2 text-sm underline" href="/free-shipping"> Learn More </a>
+    </div>
+    <div
+      class="flex flex-col sm:flex-1 h-3/4 p-10 sm:p-0 justify-center items-center sm:border-r-2 border-gray-500"
+    >
+      <Image
+        class="sm:h-28 h-12"
+        width="256"
+        height="128"
+        src={returns}
+        alt="packing box"
+      />
+      <h2 class="pt-4">Extended Returns</h2>
+      <a class="p-2 text-sm underline" href="/extended-returns"> Learn More </a>
+    </div>
+    <div
+      class="flex flex-col sm:flex-1 h-3/4 p-10 sm:p-0 justify-center items-center sm:border-r-2 border-gray-500"
+    >
+      <Image
+        class="sm:h-28 h-12"
+        width="256"
+        height="128"
+        src={tracking}
+        alt="package tracking"
+      />
+      <h2 class="pt-4">Track Your Order</h2>
+      <a
+        class="p-2 text-sm underline"
+        href="https://www.canadapost-postescanada.ca/track-reperage/en#/home"
+      >
+        Click Here
+      </a>
+    </div>
+    <div
+      class="flex flex-col flex-1 h-3/4 p-10 sm:p-0 justify-center items-center"
+    >
+      <Image
+        class="sm:h-28 h-12"
+        width="256"
+        height="128"
+        src={giftcard}
+        alt="gift card"
+      />
+      <h2 class="pt-4">Gift Cards</h2>
+      <a class="p-2 text-sm underline" href="/gift-cards"> Learn More </a>
+    </div>
+  </div>
+</div>

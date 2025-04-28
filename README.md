@@ -1,8 +1,8 @@
 ![Modern Apparel Logo Card](public/card.png)
 
-# Moden Apparel - Landing Page
+# Modern Apparel
 
-Modern Apparel is an Ecommerce Landing Page Built With Next.js and Tailwind CSS.
+Modern Apparel is an E-commerce Landing Page Built With Astro and Tailwind CSS.
 
 ## Screenshots
 
@@ -10,36 +10,24 @@ Modern Apparel is an Ecommerce Landing Page Built With Next.js and Tailwind CSS.
 | -------------------------- | ------------------------------- |
 | ![](public/screenshot.jpg) | ![](public/dark-screenshot.png) |
 
----
-
-## Shop Page
-
-For the shop page, please visit the `shop` branch in this repository.
-
 ## Software & Resources
 
-- React
-- Next.js
+- Astro
 - Tailwind CSS
 - Netlify Forms
 
-## Develop Locally
+## 🧞 Commands
 
-First, install the depedencies:
+All commands are run from the root of the project, from a terminal:
 
-```bash
-npm install
-# or
-yarn install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 ## Star ⭐
 
@@ -52,18 +40,9 @@ View more information in [LICENSE.md](LICENSE.md)
 
 ## Credits
 
-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-- All images are property of their respective owners.
+- All images are property of their respective owners (images are sourced from online fashion retailer website such as Aritzia and Tommy Hilfiger ).
 
-## Learn More
+## 👀 Want to learn more?
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
-
-To learn more about Tailwind CSS, take a look at the following resources:
-
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - learn about Tailwind CSS features and how to get started.
-- You can check out [the tailwindcss GitHub repository](https://github.com/tailwindlabs/tailwindcss)
+To learn more about Astro, take a look at the [Astro documentation](https://docs.astro.build)
+To learn more about Tailwind CSS, take a look at the [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)

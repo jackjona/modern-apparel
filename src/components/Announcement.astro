@@ -1,0 +1,24 @@
+---
+import "../styles/global.css";
+import { Image } from "astro:assets";
+import ukraineFlag from "../assets/images/ukraine/ua.svg";
+---
+
+<div
+  class="flex justify-center bg-emerald-600 font-semibold text-white text-sm sm:text-lg h-8 lg:h-10 leading-8 lg:leading-10 outline-none uppercase overflow-hidden"
+>
+  <div class="mt-1 lg:mt-1.5 mr-3">
+    <Image
+      class="rounded-sm"
+      src={ukraineFlag}
+      alt="Picture of the author"
+      width="38"
+      height="24"
+    />
+  </div>
+  We stand with the people of Ukraine.
+</div>
+
+<!--  <div class="flex justify-center bg-emerald-600 font-semibold text-white h-8 lg:h-10 leading-8 lg:leading-10 outline-none">
+    FREE SHIPPING ON ORDERS $20+
+  </div> -->
